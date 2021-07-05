@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    font-family: 'open-sans', sans-serif;
+}
+body{
+    margin:0%;
+}
+hr{
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end:auto;
+    overflow: hidden;
+
+}
+h1,h2,h3{
+    color:#22A39F;
+}
+p,li,a,td,address{
+    color: #727373;
+}
+.parallax{
+    background-image: url("./res/pexels-jess-bailey-designs-1097930.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position:inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(70%);
+}
+.Name{
+    opacity: 100%;
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    margin: 0% 25%;
+    white-space:pre-line;
+}
+
+.white-background{
+    background: #fff;
+    background-size:cover;
+    margin: 0px 10px;
+    padding: 10% 200px;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 4%;
+}
+.profile{
+    margin-bottom: 5%;
+}
+.about-me, .about{
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+}
+img{
+    border: 5px solid silver;
+    border-radius: 50%;
+}
+.background1{
+    background-color:#0b0b0c25;
+}
+.extraa-curricular, .education{
+    display: inline-block;
+    width: 49.5%;
+    text-align: center;
+    padding : 6% 6%;
+}
+.background2{
+    background: #fff;
+    background-size:cover;
+    margin: 0px 10px;
+    padding: 10% 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.skills > h3, .projects > h3{
+    text-align: center;
+    font-size: large;
+}
+footer{
+    background-color: #323232;
+}
+.contact-me>h3{
+    color : #dfd5d5;
+    font-size: 25px;
+}
+.contact-me{
+    margin:0 auto;
+    text-align: center;
+    padding: 2% 2%;
+}
+.contact-me>a{
+    display: inline-block;
+    font-size: 35px;
+    padding-left:0.4em;
+}
+td,th,table{
+    width: 220px;
+    border: 2px solid black;
+}
